@@ -1,101 +1,146 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./css/bootstrap.css">
-
-    <!-- My CSS -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/mobile.css">
-
-    <!-- My Font -->
-    <link href="https://fonts.googleapis.com/css?family=Lora|Noto+Sans|Ubuntu&display=swap" rel="stylesheet">
-
-    <title>Syn-Cepat-Express - Home</title>
-
-
-
-</head>
-
-<body>
-
-    <!-- header -->
-    <section class="header sticky-top">
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-expand-lg navbar-dark">
+ <!-- slider -->
+ <section class="slider">
+        <div class="row text-center">
+            <div class="col-lg-12">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                     <div class="container">
-                        <a class="navbar-brand" href="./landing-page.html"><img src="./Assets/logo/logo syn cepat.png"
-                                alt=""></a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-item nav-link active" href="./landing-page.html">HOME <span
-                                        class="sr-only">(current)</span></a>
-                                <a class="nav-item nav-link active" href="./Yes.html">YES</a>
-                                <a class="nav-item nav-link active" href="./reg.html">REGULER</a>
-                                <a class="nav-item nav-link active" href="./cod.html">COD</a>
-                                <a class="nav-item nav-link active" href="./contact-us.html">CONTACT US</a>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <h1>KIRIM BARANG TANPA KHAWATIR</h1>
+                                <p>
+                                    <h6>Tidak hanya cepat, kami juga sediakan pick up GRATIS untuk mempermudah jualan
+                                        <br>
+                                        OnlineShop kamu tanpa minimal paket. Tidak perlu lagi menumpuk dan mengantarkan
+                                        barang,
+                                        karena SiGesit kami yang akan melakukannya.
+                                    </h6>
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>KIRIM BARANG TANPA KHAWATIR</h1>
+                                <p>
+                                    <h6>Tidak hanya cepat, kami juga sediakan pick up GRATIS untuk mempermudah jualan
+                                        <br>
+                                        OnlineShop kamu tanpa minimal paket. Tidak perlu lagi menumpuk dan mengantarkan
+                                        barang,
+                                        karena SiGesit kami yang akan melakukannya.
+                                    </h6>
+                                </p>
+                            </div>
+                            <div class="carousel-item">
+                                <h1>KIRIM BARANG TANPA KHAWATIR</h1>
+                                <p>
+                                    <h6>Tidak hanya cepat, kami juga sediakan pick up GRATIS untuk mempermudah jualan
+                                        <br>
+                                        OnlineShop kamu tanpa minimal paket. Tidak perlu lagi menumpuk dan mengantarkan
+                                        barang,
+                                        karena SiGesit kami yang akan melakukannya.
+                                    </h6>
+                                </p>
                             </div>
                         </div>
                     </div>
-                </nav>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
         </div>
+        <img src="./Assets/visual/visual1.png" alt="visual1" width="100%" height="auto" class="visual1">
     </section>
-    <!-- akhir header -->
+    <!-- akhir slider -->
 
-    <!-- layanan reg -->
-    <div class="layanan-yes">
+    <!-- ongkir dan lacak -->
+    <section class="ongkir-lacak">
         <div class="container">
-            <div class="cek-biaya-yes mt-5">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img src="./Assets/img/kurir2.jpg" style="width: 100%; border-radius: 20px 0px 0px 20px;">
-                    </div>
-                    <div class="col">
-                        <div class="form-ongkir-yes">
-                            <h5>COD<b> (Bayar Ditempat)</b> </h5>
+            <div class="bg-ongkir-lacak">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5">
+                        <div class="ongkir">
+                            <h1>Hitung Ongkos Kirim</h1>
                             <p>
-                                <h6>Hitung estimasi biaya pengiriman paket anda <br>
-                                    dengan layanan COD</h6>
+                                <h6>Hitung Estimasi Biaya Barang Anda, dengan memasukkan Kota Tujuan, Kota Pengirim dan
+                                    Berat Barang Anda</h6>
                             </p>
                             <p>
                                 <input class="form-control" type="text" placeholder="Kota Asal">
+
                             </p>
                             <p>
                                 <input class="form-control" type="text" placeholder="Kota Tujuan">
+
                             </p>
                             <p>
                                 <input class="form-control" type="text" placeholder="Berat Barang (grams)">
                             </p>
                             <p>
-                                <div class="row justify-content-center">
-                                   <a href="#"> <button type="button" class="btn btn-light">Clear</button></a>
-                                    <a href="./ongkir.html"><button type="button" class="btn btn-success">Cek
-                                            Biaya</button></a>
-                                </div>
+                               <a href="#"><button type="button" class="btn btn-outline-light">Clear</button></a> 
+                                <a href="./informasi.html"> <button type="button" class="btn btn-primary">Cek
+                                        Biaya</button> </a>
                             </p>
-
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="lacak">
+                            <h1>Hitung Lacak Kiriman</h1>
+                            <p>
+                                <h6>Masukkan No Resi Anda</h6>
+                            </p>
+                            <p>
+                                <input class="form-control" type="text" placeholder="No Resi Anda">
+                            </p>
+                            <img src="./Assets/img/delivery.png" alt="delivery" height="200px" width="auto">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- akhir layanan reg -->
+    </section>
+    <!-- akhir ongkir & lacak -->
 
-      <!-- berita terikini -->
-      <section class="berita-terkini">
+    <!-- ours service -->
+    <section class="our-service">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <h1>Ours <b>Service</b> </h1>
+                    <hr style="width: 50px; border-width: 4px; border-color: black; ">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <?php 
+                    foreach (getLayanan() as $data) :?>
+                    <div class="col-lg-4 text-center">
+                    <div class="reguler">
+                        <img src="./Assets/icon/<?= $data['icon'] ?>" alt="logo-paket">
+                        <p>
+                            <h1><?= $data['layanan'] ?></h1>
+                        </p>
+                        <p>
+                            <h6><?= $data['keterangan'] ?> </h6>
+                        </p>
+                        <p>
+                            <a href="<?= $data['link']?>"><button type="button" class="btn btn-primary">Pilih
+                                    Layanan</button></a>
+                        </p>
+                    </div>
+                </div>
+                <?php endforeach ?>
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- akhir ours service -->
+
+
+    <!-- berita terikini -->
+    <section class="berita-terkini">
         <div class="row">
             <div class="col-xl-5 d-lg-block d-none">
                 <img class="img-kurir-sepeda" src="./Assets/img/kurir-sepeda.png" alt="kuris-sepeda">
@@ -267,58 +312,53 @@
     </section>
     <!-- akhir berita terkini -->
 
-
-    <!-- footer -->
-    <section class="footer">
+    <!-- apa kata mereka -->
+    <section class="review">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <h1>KANTOR PUSAT</h1>
-                    <h2>Jln. Rajawali No 11</h2>
-                    <h2>Ilir Timur 1140</h2>
-                    <h2>Palembang</h2>
-                </div>
-                <div class="col-lg-3">
-                    <h1>PERUSAHAAN</h1>
-                    <h2>Profil Perusahaan</h2>
-                    <h2>Penghargaan</h2>
-                    <h2>CSR</h2>
-                </div>
-                <div class="col-lg-3">
-                    <h1>LINK TERKAIT</h1>
-                    <h2>Trace & Trucking</h2>
-                    <h2>Shiping Rates</h2>
-                    <h2>Ours Network</h2>
-                    <h2>Service</h2>
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <h1>Apa <b>Kata Mereka</b> <br> Tentang Kami </h1>
+                    <hr style="width: 50px; border-width: 4px; border-color: black; ">
                 </div>
             </div>
-            <hr style="width: 100%; border-width: 1px; border-color: rgb(255, 255, 255); ">
-            <h2>@ Copyright syn_cepat express 2020</h2>
+            <div class="row text-center">
+                <?php foreach(getReview()as $data) :?>
+                <div class="col-lg-4">
+                    <div class="review-konten">
+                        <img src="./Assets/img/<?= $data['foto'] ?>" alt="person1">
+                        <p>
+                            <h1><?= $data['nama_depan'].'  '.$data['nama_belakang'] ?></h1>
+                        </p>
+                        <p>
+                            <?php 
+                            $cekKoma = strpos($data['bintang'],'.');
+                            $explode = explode('.', $data['bintang']);
+                            if($cekKoma):
+                             for ($i=1; $i <= $explode[0]; $i++) :?>
+                            <img src="./Assets/icon/ic_star.png" alt="star">    
+                            <?php endfor ?>
+                            <img src="./Assets/icon/Half-star.png" alt="star" width="27">
+                          (<?= $data ['bintang'] ?>)
+                          <?php else :    
+                          for ($i= 1; $i <= $explode[0]; $i++) :?>
+                            <img src="./Assets/icon/ic_star.png" alt="star"> 
+                            (<?= $data ['bintang'] ?>)
+                            <?php endfor ?>
+                          <?php endif ?>
+                        </p>
+                        <p>
+                            <h6><?= $data['komentar'] ?></h6>
+                        </p>
+                    </div>
+                </div>
+               <?php endforeach ?>
+            </div>
+            <hr>
+            <div class="row text-center pt-3">
+                <div class="col">
+                    <a href="./review.html"> <button type="button" class="btn btn-outline-primary">Add Review</button></a>
+                </div>
+            </div>
         </div>
     </section>
-    <!-- akhir footer -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="./js/jquery-4.4.1.slim.min.js"></script>
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
-</body>
-
-</html>
+    <!--akhir apa kata mereka-->
